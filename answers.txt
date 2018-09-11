@@ -1,4 +1,31 @@
 1) What is a gitignore file and what should it include for a Java project?
+A) Git uses he gitingnore file to determine which files and directories 
+to ignore before making a commit. The gitignore should include the 
+followin files for a java project.
+- Compiled class file
+- Log file
+- BlueJ files
+- Package Files
+- Virtual machine crash logs, etc.
+
+
 2) What does fast-forward in Git mean?
+A) When your checked-out branch is behind the branch that you're trying 
+to merge with, GIT performs a fast forward. When you try to merge these 
+branches, GIT fast forwards the master branch's pointer to match the 
+merged commits in order to avoid conflicts.
+
+
 3) Why should you have different branches?
+A) You should laways have one master branch where the code is stable and 
+merged. If everyone works on the master branch, there is a high 
+possibility of messing up the master branch. Intead, working on 
+different branches and then merging it with master helps avoid conflicts 
+and keeps the code safe. For example you are working on a car project. 
+One person creates a branch called "wheels" and another person creates a 
+branch called "seats". They can individually work on their branches and 
+then merge thier work to the master branch of the car. This helps in 
+parallel working as well.
+
 4) In a project how many remote Git repositories do you usually have?
+A) You usually have only one remote git repository in a project.
